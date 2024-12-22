@@ -1,3 +1,5 @@
+[hier gehts zum Blogeintrag:](https://nc-x.com/monitoring-wasserzaehler-zenner)
+
 # Wasserzaehler_Zenner_Wemos
 using a magnetometer HMC5883L and a Wemos D1 mini R3 to monitor our water consumption
 Völlig unbemerkt haben wir im Dorf diesesmal Wasserzähler mit einem verbauten Magneten im Zählwerk erhalten. Dies ist die Vorstufe einer Schnittstelle. Für viel Geld kann dann darauf aufbauend ausgelesen werden. Viel Geld muss ich nicht ausgeben, geht viel günstiger.
