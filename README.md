@@ -39,6 +39,7 @@ Es gibt noch einen zweiten Extremwert, der an dem sich der Sensor vom Magneten w
 Da ich zwei Sensoren in zwei verschiedenen Häusern montieren will, möchte ich nicht jedesmal diese Extremstellen suchen müssen. Der Code sucht diese in den ersten paar Umdrehungen selbst und nutzt diese dann weiter anstatt dass feste Werte vergeben werden. Ebenso berücksichtige ich, ob das Sensorrad links oder rechtsrum dreht, es ist dem Code egal.
 
 Damit mir der Wemos D1 die Influxdatenbank nicht mit immergleichen Werten zumüllt, meldet er nur, wenn ein Crossing stattfand und wenn die letze Meldung schon eine Weile her ist. Momentan steht publish_delay auf 10 Sekunden weil ich kein Signal verpassen möchte. Dadurch kommen fast immer 5 Liter-Meldungen.
+
 ![Auswahl_20241222_005](https://github.com/user-attachments/assets/f031b4af-077f-4e35-aa8b-e438d68977c3)
 
 Klar ist das keine Echtzeitmeldung, wenn zum Beispiel nach dem letzten Vorbeiflug (crossing) nur noch 3 Liter verbraucht wurden, werden die erst mit der nächsten 5 Liter-Meldung ausgegeben. Das kann 3 Stunden später sein. Ganz ehrlich, mir egal, ich wusste nichtmal wieviel Wasser wir fürs Duschen brauchen, wieviel sich die Waschmaschine nimmt und wieviel wann für die Spülmaschine draufgeht. Das werde ich jetzt alles untersuchen.
